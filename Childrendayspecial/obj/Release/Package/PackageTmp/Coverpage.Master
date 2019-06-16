@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Coverpage.master.cs" Inherits="Childrendayspecial.Coverpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 header1">
+                    <a href="http://www.workaholics.co.nz/"><img src=images/logo.png /></a>
+                    </div>
+                <div class="col-sm-9 header2">
+                    <a href="Default.aspx">Home</a>&nbsp;&nbsp; <a href="Registerpage.aspx">Register</a>&nbsp;&nbsp; <a href="Stafflogin.aspx">Staff Login</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </div>
+            </div>
+            <div class="row">
+                 <div class="col-sm-6 leftalign">
+                     <b>Our Address:</b><br />Level 5,48-52 Wyndham Street, <br />Auckland CBD, Auckland 1010 NZ
+                </div>
+                <div class="col-sm-6 rightalign">
+                    <b>Contactus:</b><br />
+                   W: <a href="http://www.workaholics.co.nz">www.workaholics.co.nz</a>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-sm-12 footer">
+                        <a href="http://www.workaholics.co.nz/">Copyright2018@Workaholics.co.nz</a><br />
+                    Developed by Gagandeep Kaur&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="Red" NavigateUrl="~/TermsandConditionspage.aspx">Terms and Conditions</asp:HyperLink>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                    </div>
+                </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Coverpage.master.cs" Inherits="Childrendayspecial.Coverpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <style type="text/css">
+       
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 header1">
+                    <a href="http://www.workaholics.co.nz/"><img src=images/logo.png /></a>
+                    </div>
+                <div class="col-sm-9 header2">
+                    <a href="Default.aspx">Home</a>&nbsp;&nbsp; <a href="Registerpage.aspx">Register</a>&nbsp;&nbsp; <a href="Stafflogin.aspx">Staff Login</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </div>
+            </div>
+            <div class="row">
+                 <div class="col-sm-6 leftalign">
+                     <b>Our Address:</b><br />Level 5,48-52 Wyndham Street, <br />Auckland CBD, Auckland 1010 NZ
+                </div>
+                <div class="col-sm-6 rightalign">
+                    <b>Contactus:</b><br />
+                   W: <a href="http://www.workaholics.co.nz">www.workaholics.co.nz</a>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-sm-12 footer">
+                        <a href="http://www.workaholics.co.nz/">Copyright2018@Workaholics.co.nz</a><br />
+                    Developed by Gagandeep Kaur&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <a href="#" onclick="myFunction()">Terms and Conditions</a>     
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                    </div>
+                    
+                </div>
+        </div>
+       <script>
+    function myFunction() {
+    var myWindow = window.open("", "MsgWindow", "width=400,height=400");
+    myWindow.document.write("<h4 text-align=center>Terms and Conditions:By entering this competition you agree to be bound by these terms and conditions &amp; you are happy to receive any communication from Workaholic Financial Services.These prizes will be randomly drawn at the end of the event.Entries are limited to one person.The prize cannot be exchanged for cash.Workaholics Financial Services reserve the right to modify these T&amp;Cs and to extend,postpone or cancel the competition at any time.These terms and conditions shall be governed by the laws of New Zealand.</h4>");
+}
+</script>
+    </form>
+</body>
+</html>

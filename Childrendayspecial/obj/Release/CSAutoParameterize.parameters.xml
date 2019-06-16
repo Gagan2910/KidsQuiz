@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WorkaholicsConnectionString-Web.config Connection String" description="WorkaholicsConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:ariesmediaworks.database.windows.net,1433;Initial Catalog=Workaholics;Persist Security Info=False;&#xD;&#xA; User ID=Andy;Password=Harry$20;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Desktop\\internship\\Gagandeep\ Intern\\Project\\Childrendayspecial\\Childrendayspecial\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WorkaholicsConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

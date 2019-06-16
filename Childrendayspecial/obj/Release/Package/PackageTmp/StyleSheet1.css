@@ -1,0 +1,141 @@
+﻿body {
+     background-image: url('images/backgroundimage.jpg');
+}
+.nav {
+    width:100%;height:100%
+}
+.header1 {
+    background-color:lightgray;
+   float:left;
+   height:60px;
+}
+.header2 {
+    background-color: lightgray;
+    color: red;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+    float: right;
+    text-align: right;
+    height: 60px;
+}
+a{color:red;}
+a:hover{color:red;text-align:center}
+
+.footer{
+    background-color:lightgray;
+    color:black;
+    text-align:center;
+    text-decoration:solid;
+    font-size:small;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;     
+    text-align:center;
+}
+.headerimage{
+    display:block;margin-left:auto;margin-right:auto;
+}
+.content{align-content:center}
+.subheading{font-family:'Times New Roman', Times, serif;font-size:large;
+            color:black;
+            text-align:center;
+            text-decoration:solid;font-weight:bold}
+.horizontal{color:black;}
+.ques {
+    color: black;
+    font-size: large;
+    text-align: left;
+    text-decoration: solid;
+    font-weight: bold;margin-left:14px;
+        
+}
+.prize{
+    color:green;
+}
+.leftalign {
+    float:left;
+    background-color: white;
+    color: red;
+    text-align: center;
+    text-decoration: solid;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+.rightalign {
+    float: right;
+    background-color: white;
+    color: red;
+    text-align: center;
+    text-decoration: solid;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height:78px;
+}
+.parent{display:block;
+        width:100%;
+        background-color:white;
+        height:78px;
+}
+.stafflogin {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    color: red;
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold
+}
+.Space label{
+    margin-left: 20px;
+}
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
